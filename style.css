@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('cute\ kitty.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+   display: inline;
+justify-content: flex-start;
+position: relative;
+bottom: 330px;
+font-size: xx-large;
+}
+
+#result{
+position: fixed;
+bottom: 560px;
+font-size: x-large;
+text-align: center;
+}
+
+button{
+position: fixed;
+text-align: center;
+height: 100px;
+width: 100px;
+border-radius: 50%;
+bottom: 58%;
+background: url('Paws\ gif.gif');
+background-size: cover;
+background-repeat: no-repeat;
+font-weight: 700;
+}
+
+#button:hover{
+    cursor: pointer;
+    box-shadow: 10px 5px 5px pink;
+}
+
